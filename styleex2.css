@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Noto Sans Mono", serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+
+li {
+    font-weight: bold;
+}
