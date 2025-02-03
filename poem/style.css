@@ -1,0 +1,118 @@
+* {
+    margin:0;
+    padding:0;
+    background-color:lightcyan;
+}
+
+h1 {
+    color:darkslateblue;
+    font-family:cursive;
+    margin: 25px 0 0 25px;
+    /*background-color: pink;*/
+    text-align:center;
+    font-size: 10vw;
+    /* vw is viewport width, viewport is another name for the browser */
+}
+
+h2 {
+    color:darkmagenta;
+    font-family: cursive;
+    margin: 0 0 0 25px;
+    /*background-color: mediumspringgreen;*/
+    font-size: 4vw;
+}
+
+body {
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
+    color:darkslategrey;
+    /*background-color:mistyrose;*/
+}
+
+p {
+    margin: 50px 0 50px 100px;
+    /* if the padding or margin is the same on all sides, 
+    you can just have margin or padding, 
+    but if they're different you have to type out the dimensions for each side 
+    margin shorthand goes top right bottom left*/
+    padding: 0px;
+    /*background-color:orchid;*/
+    border-bottom: 2px dotted blue;
+    border-top: 2px dotted blue;
+    /*width: 25%;*/
+    font-size: 24px;
+}
+
+span {
+    color:darkolivegreen;
+    font-weight: bold;
+    font-style: italic;
+    text-transform: uppercase;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+}
+
+.highlight {
+    color: darkblue;
+    /*background-color: azure;*/
+}
+
+.first {
+    color:indigo;
+}
+
+img {
+    width: 500px;
+    margin: 0 0 0 100px;
+}
+
+.firstimage {
+    width: 600px;
+    margin: 0 0 0 200px;
+}
+
+.dm-serif-display-regular {
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .dm-serif-display-regular-italic {
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+
+  header {
+    display: block;
+    width: 75%;
+    /*background-color:lavender;*/
+    padding: 50px;
+    text-align:center;
+    margin: 0px auto 0 auto;
+  }
+  
+  section {
+    width: 100%;
+    /*background-color:violet;*/
+    margin: 0px auto 0px auto;
+  }
+
+  .poemtext {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .poemimage {
+    width: 50%;
+  }
+
+  .poemline {
+    width: 50%;
+  }
+
+  .poemimage img {
+    width: 100%;
+  }
